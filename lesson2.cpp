@@ -7,9 +7,8 @@ int DemoConsoleOutput();
 int main()
 {
     //Call i.e. invoke the function 
-    DemoConsoleOutput();
+    return DemoConsoleOutput();
 
-    return 0;
 }
 
 //Define i.e. implement the previously declared function 
