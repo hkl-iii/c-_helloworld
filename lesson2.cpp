@@ -1,24 +1,23 @@
-#include <iostream> 
+#include <iostream>
+#include <string>
 using namespace std;
-
-//Declare a function 
-int DemoConsoleOutput();
 
 int main()
 {
-    //Call i.e. invoke the function 
-    return DemoConsoleOutput();
+//Declare a variable to store an integer
+int inputNumber;
 
-}
+cout << "Enter an integer: ";
 
-//Define i.e. implement the previously declared function 
-int DemoConsoleOutput() 
-{
-    cout << "This is a simple string literal" << endl;
-    cout << "Writing number five: " <<5 << endl;
-    cout << "Performing division 10 / 5 = " << 10 / 5 << endl;
-    cout << "Pi when approximated is 22 / 7 = " << 22 / 7 << endl,
-    cout << "Pi is 22 / 7 =" << 22.0 / 7 << endl;
+// store integer given user input
+cin >> inputNumber;
 
-    return 0;
+//The same with text i.e. string data 
+cout << "Enter your name: ";
+string inputName;
+cin >> inputName;
+
+cout << inputName << " entered " << inputNumber << endl;
+
+return 0;
 }
